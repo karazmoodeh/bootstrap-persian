@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <title>بوت استرپ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="http://twitter.github.com/bootstrap/index.html">بوت استرپ</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="http://twitter.github.com/bootstrap/index.html">صفحه نخست</a>
+              </li>
+              <li class="">
+                <a href="http://twitter.github.com/bootstrap/getting-started.html">شروع کار</a>
+              </li>
+              <li class="">
+                <a href="http://twitter.github.com/bootstrap/scaffolding.html">تعریف ساختار</a>
+              </li>
+              <li class="">
+                <a href="http://twitter.github.com/bootstrap/base-css.html">دستورات پایه ی CSS</a>
+              </li>
+              <li class="">
+                <a href="http://twitter.github.com/bootstrap/components.html">اجزای  فریم ورک</a>
+              </li>
+              <li class="">
+                <a href="http://twitter.github.com/bootstrap/javascript.html">جاواسکریپت</a>
+              </li>
+              <li class="">
+                <a href="http://twitter.github.com/bootstrap/customize.html">Customize</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>شروع کار</h1>
+    <p class="lead">توضیح کلی درباره ی پروژه، محتوای آن و اینکه چطور یک قالب ساده را با آن ایجاد کنید.</p>
+  </div>
+</header>
+
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav">
+          <li><a href="#download-bootstrap"><i class="icon-chevron-left"></i> دانلود</a></li>
+          <li><a href="#file-structure"><i class="icon-chevron-left"></i> ساختار فایل ها</a></li>
+          <li><a href="#contents"><i class="icon-chevron-left"></i> این فریم ورک شامل چه چیزهایی است؟</a></li>
+          <li><a href="#html-template"><i class="icon-chevron-left"></i> قالب پایه ی HTML</a></li>
+          <li><a href="#examples"><i class="icon-chevron-left"></i> مثال ها</a></li>
+          <li><a href="#what-next"><i class="icon-chevron-left"></i> قدم بعدی چیست؟</a></li>
+        </ul>
+      </div>
+      <div class="span9">
+
+
+
+        <!-- Download
+        ================================================== -->
+        <section id="download-bootstrap">
+          <div class="page-header">
+            <h1>1. دانلود فریم ورک</h1>
+          </div>
+          <p class="lead">قبل از دانلود، مطمئن شوید که یک ویرایشگر متن مناسب در اختیار دارید (ما <a href="http://aptana.com/">Aptana</a> را به شما پیشنهاد می کنیم.) در اینجا درباره فایل های منبع توضیحی نمی دهیم اما این فایل ها نیز برای دانلود در اختیار شما قرار دارند. ما کار خود را با فایل های آماده ی بوت استرپ آغاز می کنیم.</p>
+
+          <div class="row-fluid">
+            <div class="span6">
+              <h2>دانلود فایل های آماده</h2>
+              <p><strong>سریعترین راه برای شروع کار با بوت استرپ:</strong> فایل های تصویری،  CSS و JS فشرده شده ی فریم ورک را دریافت کنید. هیچ مستندات یا فایل های منبعی در این فایل وجود ندارد.</p>
+              <p><a class="btn btn-large btn-primary" href="assets/bootstrap.zip" >دانلود بوت استرپ</a></p>
+            </div>
+            <div class="span6">
+              <h2>دانلود فایل های منبع</h2>
+              <p>فایل اصلی را به همراه کلیه ی فایل های CSS و جاواسکریپت، به همراه یک نسخه آفلاین از مستندات را از طریق این لینک از گیت هاب دریافت کنید.</p>
+              <p><a class="btn btn-large" href="https://github.com/twitter/bootstrap/zipball/master" >دانلود فایل های منبع بوت استرپ</a></p>
+            </div>
+          </div>
+        </section>
+
+
+
+        <!-- File structure
+        ================================================== -->
+        <section id="file-structure">
+          <div class="page-header">
+            <h1>2. ساختار فایل ها</h1>
+          </div>
+          <p class="lead">داخل فایل دانلودی این محتوا و ساختار فایل را خواهید یافت که به شکلی منطقی اجزای اصلی را دسته بندی کرده است و فایل ها را به شکل فشرده شده و آماده در اختیارتان قرار می دهد.</p>
+          <p>بعد از اتمام دانلود، فایل را از حالت فشرده خارج کنید تا فایل ها و پوشه های آماده بوت استرپ را ببینید. ساختاری اینچنین در اختیار شما قرار خواهد گرفت:</p>
+<pre class="prettyprint">
+  bootstrap/
+  ├── css/
+  │   ├── bootstrap.css
+  │   ├── bootstrap.min.css
+  ├── js/
+  │   ├── bootstrap.js
+  │   ├── bootstrap.min.js
+  └── img/
+      ├── glyphicons-halflings.png
+      └── glyphicons-halflings-white.png
+</pre>
+          <p>این ساده ترین حالت بوت استرپ است: فایل های آماده ای که می توان آنها را داخل پوشه ی هر پروژه  ی وب سایتی کپی کرد. ما فایل های آماده ی CSS و JS <code>bootstrap.*</code>, به همراه فایل های فشرده شده ی CSS و JS <code>bootstrap.min.*</code> را در اختیار شما قرار دادیم. تصاویر نیز با استفاده از <a href="http://imageoptim.com/">ImageOptim</a>, که یک نرم افزار تحت سیستم عامل مکینتاش است، فشرده شده است.</p>
+          <p>لطفا توجه داشته باشید، برای اینکه کلیه پلاگین های جاواسکریپت به درستی کار کند باید کتابخانه ی jQuery را نیز به صفحه خود اضافه کنید.</p>
+        </section>
+
+
+
+        <!-- Contents
+        ================================================== -->
+        <section id="contents">
+          <div class="page-header">
+            <h1>3. این فریم ورک شامل چه چیزهایی است؟</h1>
+          </div>
+          <p class="lead">بوت استرپ شامل مجموعه ای از فایل های HTML, CSS و JS است که با آنها می توان کارهای مختلفی انجام داد، اما می توان این فایل ها را به طور خلاصه به این شکل دسته بندی کرد.</p>
+
+          <h2>بخش مستندات</h2>
+          <h4><a href="http://twitter.github.com/bootstrap/scaffolding.html">تعریف ساختار</a></h4>
+          <p>سبک های CSS کلی برای تگ body و یکسان سازی متن ها و پس زمینه ها، سبک لینک ها، ساختار شبکه (grid)، و دو طرح ساده.</p>
+          <h4><a href="http://twitter.github.com/bootstrap/base-css.html">دستورات پایه ی CSS</a></h4>
+          <p>سبک های کلی برای تگ های رایج HTML همچون موارد مرتبط با تایپوگرافی، کدها، جدولها، فرم ها و دکمه ها. همچنین <a href="http://glyphicons.com">Glyphicons</a> که یک مجموعه آیکون عالی و کوچک است نیز در این بخش گنجانده شده است.</p>
+          <h4><a href="http://twitter.github.com/bootstrap/components.html">اجزا</a></h4>
+          <p>سبک های CSS پایه برای اجزای رایج در طراحی همچون tab ها،‌ علامت ها، نوار پیمایش (navigation bar)،‌ پیغام های هشدار،‌ بخش سرصفحه (header) و بسیاری از بخش های دیگر</p>
+          <h4><a href="http://twitter.github.com/bootstrap/javascript.html">افزونه های جاواسکریپت</a></h4>
+          <p>این بخش شبیه به بخش قبلی (اجزا) است و این افزونه های جاواسکریپت اجزای پویایی هستند که بخش هایی همچون tooltip ها،‌ popover ها، modal ها و بخش های دیگه را می سازند.</p>
+
+          <h2>فهرست اجزا</h2>
+          <p>بخش <strong>اجزا</strong> به همراه <strong>افزونه های جاواسکریپت</strong>، این عناصر را برای استفاده در واسط کاربری ایجاد می کنند:</p>
+          <ul>
+            <li>گروه دکمه ها (Button groups)</li>
+            <li>دکمه های دارای لیست پایین افتادنی (Button dropdowns)</li>
+            <li>تب های ناوبری (Navigational tabs), علائم (pills), و فهرست ها</li>
+            <li>نوار پیمایش (Navbar)</li>
+            <li>لیبل ها (Labels)</li>
+            <li>نشان ها (Badges)</li>
+            <li>سرصفحه ها (Page headers) و بخش ویژه (hero unit)</li>
+            <li>تصاویر بند انگشتی (Thumbnails)</li>
+            <li>هشدارها (Alerts)</li>
+            <li>نوار پیشرفت (Progress bars)</li>
+            <li>پنجره های شناور (Modals)</li>
+            <li>لیست های پایین افتادنی (Dropdowns)</li>
+            <li>Tooltips</li>
+            <li>Popovers</li>
+            <li>Accordion</li>
+            <li>Carousel</li>
+            <li>Typeahead</li>
+          </ul>
+          <p>در ادامه این راهنما، ما به هر کدام از این اجزا خواهیم پرداخت و جزئیات کاملی را برای هر کدام ارائه می دهیم. اگر اکنون به استفاده از این بخش ها نیاز دارید به مستندات مربوط به این اجزا مراجعه کنید تا شیوه استفاده و همچنین شخصی سازی آن را فرا بگیرید.</p>
+        </section>
+
+
+
+        <!-- HTML template
+        ================================================== -->
+        <section id="html-template">
+          <div class="page-header">
+            <h1>4. قالب پایه ی HTML</h1>
+          </div>
+          <p class="lead">با کمی مقدمات و پرداختن به اصل مطلب می توانیم بر روی شیوه ی استفاده از بوت استرپ تمرکز کنیم. برای این منظور از یک قالب پایه ی HTML استفاده خواهیم کرد که تمامی مواردی را که در بخش <a href="#file-structure">ساختار فایل ها</a> آمده است را شامل می شود.</p>
+          <p>حال در اینجا به <strong>فایل پایه ی HTML</strong> امان نگاهی می اندازیم:</p>
+<pre class="prettyprint linenums">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+    &lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+          <p>برای اینکه این فایل را به  <strong>یک فایل پایه ی بوت استرپ</strong>, تبدیل کنیم تنها کافیست که فایل های CSS و JS لازم را به آن اضافه کنید:</p>
+<pre class="prettyprint linenums">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
+    &lt;!-- Bootstrap --&gt;
+    &lt;link href="css/bootstrap.min.css" rel="stylesheet" media="screen"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+    &lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
+    &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+          <p><strong>خوب فایل پایه ی ما آماده است!</strong> با اضافه کردن این دو فایل، می توانید توسعه هر سایت و یا اپلیکیشنی را با بوت استرپ آغاز کنید.</p>
+        </section>
+
+
+
+        <!-- Examples
+        ================================================== -->
+        <section id="examples">
+          <div class="page-header">
+            <h1>5. مثال ها</h1>
+          </div>
+          <p class="lead">با چند مثال از طرح های مختلف سعی می کنیم اندکی از طرح پایه و ساده، فاصله بگیریم. ما همکاران را تشویق می کنیم که از این مثال ها به عنوان طرح نهایی استفاده نکنند و تنها اینها را به عنوان مثال تمرینی به شمار آورند.</p>
+          <ul class="thumbnails bootstrap-examples">
+            <li class="span3">
+              <a class="thumbnail" href="examples/starter-template.html">
+                <img src="assets/img/examples/bootstrap-example-starter.jpg" alt="">
+              </a>
+              <h4>قالب پایه</h4>
+              <p>یک سند HTML که همه فایل های CSS و جاواسکریپت مربوط به بوت استرپ به آن اضافه شده است.</p>
+            </li>
+            <li class="span3">
+              <a class="thumbnail" href="examples/hero.html">
+                <img src="assets/img/examples/bootstrap-example-hero.jpg" alt="">
+              </a>
+              <h4>طرح فروشگاه ساده</h4>
+              <p>این طرح دارای یک بخش بزرگ و ویژه برای نمایش پیغام اصلی و سه عنصر دیگر است که اهمیت کمتری دارند.</p>
+            </li>
+            <li class="span3">
+              <a class="thumbnail" href="examples/fluid.html">
+                <img src="assets/img/examples/bootstrap-example-fluid.jpg" alt="">
+              </a>
+              <h4>طرح انعطاف پذیر (fluid)</h4>
+              <p>این طرح از سیستم تطبیق پذیر جدید ما استفاده می کند و سیستم شبکه ای انعطاف پذیری را ایجاد کرده است.</p>
+            </li>
+
+            <li class="span3">
+              <a class="thumbnail" href="examples/marketing-narrow.html">
+                <img src="assets/img/examples/bootstrap-example-marketing-narrow.png" alt="">
+              </a>
+              <h4>طرح فروشگاهی باریک</h4>
+              <p>طراح باریک و سبک فروشگاهی برای پروژه یا تیم های کوچک.</p>
+            </li>
+            <li class="span3">
+              <a class="thumbnail" href="examples/signin.html">
+                <img src="assets/img/examples/bootstrap-example-signin.png" alt="">
+              </a>
+              <h4>ورود</h4>
+              <p>یک فرم ورود به سایت اختصاصی به همراه کنترلهای فرم بزرگتر و طرحی منعطف.</p>
+            </li>
+            <li class="span3">
+              <a class="thumbnail" href="examples/sticky-footer.html">
+                <img src="assets/img/examples/bootstrap-example-sticky-footer.png" alt="">
+              </a>
+              <h4>پاورقی چسبان</h4>
+              <p>چسباندن یک پاورقی به پایین پنجره قابل دید کاربر با استفاده از بوت استرپ</p>
+            </li>
+
+            <li class="span3">
+              <a class="thumbnail" href="examples/carousel.html">
+                <img src="assets/img/examples/bootstrap-example-carousel.png" alt="">
+              </a>
+              <h4>Carousel jumbotron</h4>
+              <p>A more interactive riff on the basic marketing site featuring a prominent carousel.</p>
+            </li>
+          </ul>
+        </section>
+
+
+
+
+        <!-- Next
+        ================================================== -->
+        <section id="what-next">
+          <div class="page-header">
+            <h1>قدم بعدی چیست؟</h1>
+          </div>
+          <p class="lead">Head to the docs for information, examples, and code snippets, or take the next leap and customize Bootstrap for any upcoming project.</p>
+          <a class="btn btn-large btn-primary" href="./scaffolding.html" >Visit the Bootstrap docs</a>
+          <a class="btn btn-large" href="./customize.html" style="margin-right: 5px;" >Customize Bootstrap</a>
+        </section>
+
+
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p class="pull-left"><a href="http://twitter.github.com/bootstrap/#">بازگشت به بالا</a></p>
+        <p>طراحی و ساخته شده با عشق توسط <a href="http://twitter.com/mdo" target="_blank">@mdo</a> و <a href="http://twitter.com/fat" target="_blank">@fat</a>. بهینه شده برای زبان های راست به چپ توسط <a href="http://twitter.com/mdo" target="_blank">@mdo</a> و <a href="http://twitter.com/mdo" target="_blank">@mdo</a></p>
+        <p>این کدها تحت لیسانس <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a> و مستندات نیز تحت لیسانس <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> منتشر شده است.</p>
+        <p><a href="http://glyphicons.com/">Glyphicons Free</a> نیز با لیسانس <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> منتشر شده است.</p>
+        <ul class="footer-links">
+          <li><a href="http://blog.getbootstrap.com">بلاگ</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">مشکلات</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="https://github.com/twitter/bootstrap/wiki">دورنما و لیست تغییرات</a></li>
+        </ul>
+      </div>
+    </footer>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="assets/js/application.js"></script>
+
+
+  </body>
+</html>
